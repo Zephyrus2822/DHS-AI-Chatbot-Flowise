@@ -29,23 +29,23 @@ const dashboard = {
             icon: icons.IconHierarchy,
             breadcrumbs: true
         },
-        {
-            id: 'agentflows',
-            title: 'Agentflows',
-            type: 'item',
-            url: '/agentflows',
-            icon: icons.IconUsersGroup,
-            breadcrumbs: true,
-            isBeta: true
-        },
-        {
-            id: 'marketplaces',
-            title: 'Marketplaces',
-            type: 'item',
-            url: '/marketplaces',
-            icon: icons.IconBuildingStore,
-            breadcrumbs: true
-        },
+        // {
+        //     id: 'agentflows',
+        //     title: 'Agentflows',
+        //     type: 'item',
+        //     url: '/agentflows',
+        //     icon: icons.IconUsersGroup,
+        //     breadcrumbs: true,
+        //     isBeta: true
+        // },
+        // {
+        //     id: 'marketplaces',
+        //     title: 'Marketplaces',
+        //     type: 'item',
+        //     url: '/marketplaces',
+        //     icon: icons.IconBuildingStore,
+        //     breadcrumbs: true
+        // },
         {
             id: 'tools',
             title: 'Tools',
@@ -85,15 +85,15 @@ const dashboard = {
             url: '/apikey',
             icon: icons.IconKey,
             breadcrumbs: true
-        },
-        {
-            id: 'document-stores',
-            title: 'Document Stores',
-            type: 'item',
-            url: '/document-stores',
-            icon: icons.IconFiles,
-            breadcrumbs: true
         }
+        // {
+        //     id: 'document-stores',
+        //     title: 'Document Stores',
+        //     type: 'item',
+        //     url: '/document-stores',
+        //     icon: icons.IconFiles,
+        //     breadcrumbs: true
+        // }
     ]
 }
 
